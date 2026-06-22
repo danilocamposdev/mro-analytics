@@ -51,10 +51,6 @@ CMakeUserPresets.json
 # External projects
 *-prefix/
 
-### Doxygen ###
-docs/
-html
-latex
 
 ### Vim ###
 # Swap
