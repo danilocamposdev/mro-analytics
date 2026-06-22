@@ -41,6 +41,7 @@ add_library(${PROJECT_NAME}
 	src/forecasting/parametrics/sba.cpp
 	src/forecasting/parametrics/sbj.cpp
 	src/forecasting/parametrics/tsb.cpp
+	src/forecasting/non_parametrics/willemain_bootstrap.cpp
 	src/forecasting/distributions/zip.cpp
 	src/forecasting/distributions/gamma_demand_size.cpp
 	src/forecasting/distributions/gamma_lead_time.cpp
