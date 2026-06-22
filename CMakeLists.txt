@@ -28,6 +28,9 @@ FetchContent_MakeAvailable(stats)
 # --- Biblioteca core C++ ---
 add_library(${PROJECT_NAME}
 	src/classification/williams.cpp
+	src/classification/eaves.cpp
+    src/classification/syntetos_boylan.cpp
+    src/classification/abc_ved.cpp
 	src/initialization/seed_generators/moments.cpp
 	src/initialization/seed_generators/classic_ad_hoc.cpp
 	src/initialization/seed_generators/backcasting.cpp
