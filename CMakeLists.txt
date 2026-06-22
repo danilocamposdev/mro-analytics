@@ -51,9 +51,9 @@ add_library(${PROJECT_NAME}
 
 target_include_directories(${PROJECT_NAME}
 	PUBLIC
-	${CMAKE_SOURCE_DIR}/include
+	${CMAKE_CURRENT_SOURCE_DIR}/include
 	PRIVATE
-	${CMAKE_SOURCE_DIR}/src
+	${CMAKE_CURRENT_SOURCE_DIR}/src
 	${gcem_SOURCE_DIR}/include
 	${stats_SOURCE_DIR}/include
 )
