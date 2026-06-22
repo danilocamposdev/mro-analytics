@@ -1,0 +1,5 @@
+if(EXISTS "/home/danilo/projects/cpp/mro-analytics/build/tests/mro_analytics_tests-b12d07c_tests.cmake")
+  include("/home/danilo/projects/cpp/mro-analytics/build/tests/mro_analytics_tests-b12d07c_tests.cmake")
+else()
+  add_test(mro_analytics_tests_NOT_BUILT-b12d07c mro_analytics_tests_NOT_BUILT-b12d07c)
+endif()
