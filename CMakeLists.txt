@@ -47,6 +47,7 @@ add_library(${PROJECT_NAME}
 	src/calibration/mad.cpp
 	src/calibration/mse.cpp
 	src/preprocessing/adjusted_boxplot.cpp
+	src/preprocessing/negative_binomial_overdispersion.cpp
 )
 
 target_include_directories(${PROJECT_NAME}
